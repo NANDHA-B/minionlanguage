@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+h1{
+    color:greenyellow
+}
+header{
+    background-color:gold;
+    font-size: x-large;
+    font-family:cursive;
+}
+footer{
+    background-color:gold;
+    font-family: "Lucida Console",monospace;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    overflow:auto;
+}
+
+p{
+    margin-right: auto;
+    margin-left: auto;
+    width: 40em;
+}
+textarea{
+    width: 60%;
+    height: 3.5cm;
+    border-width:medium;
+    font-size:x-large;
+    border-color: rgb(217, 255, 0);
+}
+button{
+    display: block;
+    margin:auto;
+    padding: 5mm,5mm;
+    font-size: x-large;
+    border-radius: 1.5mm;
+    background-color: gold;
+}
+.op{
+    display: flex;
+    transform: translate(29%);
+    border: 1px solid rgb(238, 241, 45);
+    height: 10vh;
+    width: 60%;
+    margin: 1rem;
+    padding: 1rem;
+    overflow: scroll;   
+}
